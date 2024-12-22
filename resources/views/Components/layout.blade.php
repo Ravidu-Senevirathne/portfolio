@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     @vite('resources/css/app.css')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body class="bg-black text-white">
     <header class="shadow-md py-4">
@@ -49,18 +50,18 @@
        <x-about></x-about>
     </section>
 
-    <section id="projects" class="py-12 bg-gray-200">
+    <section id="projects" class="py-12 ">
        <x-projects></x-projects>
     </section>
 
-    <section id="contact" class="py-12">
+    <section id="contact" class="py-12 bg-black">
         <x-contact></x-contact>
     </section>
 
-    <footer class="bg-white py-4">
-        <div class="container mx-auto text-center">
-            <p>&copy; {{ date('Y') }} My Portfolio. All rights reserved.</p>
-        </div>
-    </footer>
+    
+      <section id="footer" class="py-12 bg-black">
+        <x-footer></x-footer>
+    </section> 
+   
 </body>
 </html>

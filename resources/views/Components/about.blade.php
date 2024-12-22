@@ -16,7 +16,7 @@
                 </div>
                 <div class="border-l-2 border-red-600 pl-4">
                     <p class="text-gray-400">Email:</p>
-                    <p class="font-semibold">example@email.com</p>
+                    <p class="font-semibold">ravidu.dilruk@gmail.com</p>
                 </div>
                 <div class="border-l-2 border-red-600 pl-4">
                     <p class="text-gray-400">From:</p>
@@ -73,6 +73,8 @@
                     <span class="px-4 py-2 bg-gray-800 rounded-full text-sm">JavaScript</span>
                     <span class="px-4 py-2 bg-gray-800 rounded-full text-sm">PHP</span>
                     <span class="px-4 py-2 bg-gray-800 rounded-full text-sm">Laravel</span>
+                    <span class="px-4 py-2 bg-gray-800 rounded-full text-sm">React</span>
+                    <span class="px-4 py-2 bg-gray-800 rounded-full text-sm">SpringBoot</span>
                     <span class="px-4 py-2 bg-gray-800 rounded-full text-sm">MySQL</span>
                     <span class="px-4 py-2 bg-gray-800 rounded-full text-sm">Git</span>
                 </div>
