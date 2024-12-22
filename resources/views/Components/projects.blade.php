@@ -5,12 +5,12 @@
         <!-- Project Card 1 -->
         <div class="bg-gray-900 rounded-xl overflow-hidden group">
             <div class="relative overflow-hidden">
-                <img src="{{ Vite::asset('resources/images/project1.jpg') }}" 
+                <img src="{{ Vite::asset('resources/images/gym.jpg') }}" 
                      alt="Project 1" 
                      class="w-full h-48 object-cover transform group-hover:scale-110 transition duration-500">
                 <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                     <div class="flex space-x-4">
-                        <a href="#" class="bg-red-600 hover:bg-red-700 p-2 rounded-full">
+                        <a href="https://github.com/Ravidu-Senevirathne/energym-web.git" class="bg-red-600 hover:bg-red-700 p-2 rounded-full">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                             </svg>
@@ -24,11 +24,11 @@
                 </div>
             </div>
             <div class="p-6">
-                <h3 class="text-xl font-bold mb-2">E-Commerce Website</h3>
-                <p class="text-gray-400 mb-4">A full-featured online shopping platform built with Laravel and React.</p>
+                <h3 class="text-xl font-bold mb-2">Energym Gymnasium Website</h3>
+                <p class="text-gray-400 mb-4">A full-featured online Gym Management System With Laravel</p>
                 <div class="flex flex-wrap gap-2">
                     <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Laravel</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">React</span>
+                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Bootstrap</span>
                     <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">MySQL</span>
                 </div>
             </div>
@@ -37,12 +37,12 @@
         <!-- Project Card 2 -->
         <div class="bg-gray-900 rounded-xl overflow-hidden group">
             <div class="relative overflow-hidden">
-                <img src="{{ Vite::asset('resources/images/project2.jpg') }}" 
+                <img src="{{ Vite::asset('resources/images/travel.jpg') }}" 
                      alt="Project 2" 
                      class="w-full h-48 object-cover transform group-hover:scale-110 transition duration-500">
                 <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                     <div class="flex space-x-4">
-                        <a href="#" class="bg-red-600 hover:bg-red-700 p-2 rounded-full">
+                        <a href="https://github.com/Ravidu-Senevirathne/Travel-Lanka-Web.git" class="bg-red-600 hover:bg-red-700 p-2 rounded-full">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                             </svg>
@@ -56,19 +56,19 @@
                 </div>
             </div>
             <div class="p-6">
-                <h3 class="text-xl font-bold mb-2">Task Management System</h3>
-                <p class="text-gray-400 mb-4">A collaborative task management solution for teams.</p>
+                <h3 class="text-xl font-bold mb-2">Traveling Website</h3>
+                <p class="text-gray-400 mb-4">A Fully Responsive Traveling Website Frontend with react</p>
                 <div class="flex flex-wrap gap-2">
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Spring Boot</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Angular</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">PostgreSQL</span>
+                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">React</span>
+                    {{-- <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Angular</span>
+                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">PostgreSQL</span> --}}
                 </div>
             </div>
         </div>
 
         <!-- Project Card 3 -->
-        <div class="bg-gray-900 rounded-xl overflow-hidden group">
-            <div class="relative overflow-hidden">
+        {{-- <div class="bg-gray-900 rounded-xl overflow-hidden group"> --}}
+            {{-- <div class="relative overflow-hidden">
                 <img src="{{ Vite::asset('resources/images/project3.jpg') }}" 
                      alt="Project 3" 
                      class="w-full h-48 object-cover transform group-hover:scale-110 transition duration-500">
@@ -98,4 +98,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
