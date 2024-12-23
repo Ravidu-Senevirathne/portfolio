@@ -62,6 +62,7 @@
       <section id="footer" class="py-12 bg-black">
         <x-footer></x-footer>
     </section> 
-   
+    
+    @vite(['resources/js/scroll-animations.js'])
 </body>
 </html>

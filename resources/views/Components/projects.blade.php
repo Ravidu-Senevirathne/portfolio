@@ -1,9 +1,9 @@
-<div class="container mx-auto px-4">
-    <h2 class="text-4xl font-bold text-center mb-12">My <span class="text-red-600">Projects</span></h2>
+<div class="container mx-auto px-4 animate-fade-in">
+    <h2 class="text-4xl font-bold text-center mb-12 animate-slide-in">My <span class="text-red-600">Projects</span></h2>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Project Card 1 -->
-        <div class="bg-gray-900 rounded-xl overflow-hidden group">
+        <div class="bg-gray-900 rounded-xl overflow-hidden group animate-float hover:scale-105 transition-all duration-500 animate-slide-up">
             <div class="relative overflow-hidden">
                 <img src="{{ Vite::asset('resources/images/gym.jpg') }}" 
                      alt="Project 1" 
@@ -35,7 +35,7 @@
         </div>
 
         <!-- Project Card 2 -->
-        <div class="bg-gray-900 rounded-xl overflow-hidden group">
+        <div class="bg-gray-900 rounded-xl overflow-hidden group animate-float animation-delay-100 hover:scale-105 transition-all duration-500 animate-slide-up">
             <div class="relative overflow-hidden">
                 <img src="{{ Vite::asset('resources/images/travel.jpg') }}" 
                      alt="Project 2" 
@@ -60,16 +60,14 @@
                 <p class="text-gray-400 mb-4">A Fully Responsive Traveling Website Frontend with react</p>
                 <div class="flex flex-wrap gap-2">
                     <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">React</span>
-                    {{-- <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Angular</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">PostgreSQL</span> --}}
                 </div>
             </div>
         </div>
 
         <!-- Project Card 3 -->
-        {{-- <div class="bg-gray-900 rounded-xl overflow-hidden group"> --}}
-            {{-- <div class="relative overflow-hidden">
-                <img src="{{ Vite::asset('resources/images/project3.jpg') }}" 
+        <div class="bg-gray-900 rounded-xl overflow-hidden group animate-float animation-delay-200 hover:scale-105 transition-all duration-500 animate-slide-up">
+            <div class="relative overflow-hidden">
+                <img src="{{ Vite::asset('resources/images/jobFinding.png') }}" 
                      alt="Project 3" 
                      class="w-full h-48 object-cover transform group-hover:scale-110 transition duration-500">
                 <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
@@ -88,14 +86,14 @@
                 </div>
             </div>
             <div class="p-6">
-                <h3 class="text-xl font-bold mb-2">Blog Platform</h3>
-                <p class="text-gray-400 mb-4">A modern blogging platform with advanced features.</p>
+                <h3 class="text-xl font-bold mb-2">Job Posting And Finding Web</h3>
+                <p class="text-gray-400 mb-4">A modern Job Posting and Finding platform with advanced features.</p>
                 <div class="flex flex-wrap gap-2">
                     <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Laravel</span>
-                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Vue.js</span>
+                    <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">Vite</span>
                     <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">MySQL</span>
                 </div>
             </div>
         </div>
     </div>
-</div> --}}
+</div>

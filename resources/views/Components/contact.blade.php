@@ -1,14 +1,14 @@
-<div class="container mx-auto px-4 py-16">
-    <h2 class="text-4xl font-bold text-center mb-12">Get In <span class="text-red-600">Touch</span></h2>
+<div class="container mx-auto px-4 py-16 animate-fade-in">
+    <h2 class="text-4xl font-bold text-center mb-12 animate-slide-in">Get In <span class="text-red-600">Touch</span></h2>
     
-    <div class="max-w-2xl mx-auto">
+    <div class="max-w-2xl mx-auto animate-slide-up">
         @if(session('success'))
-            <div class="bg-green-500 text-white p-4 rounded-lg mb-6">
+            <div class="bg-green-500 text-white p-4 rounded-lg mb-6 animate-fade-in">
                 {{ session('success') }}
             </div>
         @endif
 
-        <form action="{{ route('contact.send') }}" method="POST" class="space-y-6 bg-gray-900 p-8 rounded-xl shadow-2xl">
+        <form action="{{ route('contact.send') }}" method="POST" class="space-y-6 bg-gray-900 p-8 rounded-xl shadow-2xl animate-fade-in animation-delay-100">
             @csrf
             <div>
                 <label for="name" class="block text-sm font-medium mb-2">Name</label>

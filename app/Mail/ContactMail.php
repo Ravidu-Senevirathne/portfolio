@@ -29,10 +29,8 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->from($this->details['email'], $this->details['name'])
+        return $this->subject('New Contact Form Submission')
                     ->replyTo($this->details['email'], $this->details['name'])
-                    ->subject('Contact Form Submission')
-                    ->view('emails.contact')
-                    ->with('details', $this->details);
+                    ->view('emails.contact');
     }
 }

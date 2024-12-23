@@ -26,7 +26,7 @@ class ContactController extends Controller
         ];
     
         // Send email
-        Mail::to('exampleproject2002@gmail.com')->send(new ContactMail($details));
+        Mail::to('senevirathneravidu@gmail.com')->send(new ContactMail($details));
     
         return back()->with('success', 'Your message has been sent!');
     }
