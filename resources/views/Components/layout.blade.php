@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Ravidu Senevirathne</title>
+    <link rel="icon" href="{{ asset('images/logo.png') }}">
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body class="bg-black text-white">
     <header class="shadow-md py-4">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-3xl font-bold">Ravidu .</h1>
+           <a href="/"> <h1 class="text-3xl font-bold">Ravidu .</h1></a>
             <nav class="hidden md:block">
                 <ul class="flex space-x-4 text-xl">
                     <li><a href="#home" class="hover:text-red-500 transition-colors">Home</a></li>
